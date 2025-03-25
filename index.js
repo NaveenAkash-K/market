@@ -195,16 +195,16 @@ app.get('/market-data', async (req, res) => {
             <h1>Market Data Dashboard</h1>
             <div class="asset-grid">
                 <div class="asset-card">
-                    <a href="http://localhost:3000/market-data/nifty">Nifty 50</a>
+                    <a href="https://market-pi-tan.vercel.app/market-data/nifty">Nifty 50</a>
                 </div>
                 <div class="asset-card">
-                    <a href="http://localhost:3000/market-data/gold">Gold</a>
+                    <a href="https://market-pi-tan.vercel.app/market-data/gold">Gold</a>
                 </div>
                 <div class="asset-card">
-                    <a href="http://localhost:3000/market-data/silver">Silver</a>
+                    <a href="https://market-pi-tan.vercel.app/market-data/silver">Silver</a>
                 </div>
                 <div class="asset-card">
-                    <a href="http://localhost:3000/market-data/bitcoin">Bitcoin</a>
+                    <a href="https://market-pi-tan.vercel.app/market-data/bitcoin">Bitcoin</a>
                 </div>
             </div>
             <div class="footer">
@@ -317,33 +317,33 @@ app.get('/market-data/:asset', async (req, res) => {
             
             <div class="strategy-list">
                 <div class="strategy-card">
-                    <a href="http://localhost:3000/market-data/${asset}/1">
+                    <a href="https://market-pi-tan.vercel.app/market-data/${asset}/1">
                         <span class="strategy-number">1</span> RSI Strategy
                     </a>
                 </div>
                 <div class="strategy-card">
-                    <a href="http://localhost:3000/market-data/${asset}/2">
+                    <a href="https://market-pi-tan.vercel.app/market-data/${asset}/2">
                         <span class="strategy-number">2</span> EMA Strategy
                     </a>
                 </div>
                 <div class="strategy-card">
-                    <a href="http://localhost:3000/market-data/${asset}/3">
+                    <a href="https://market-pi-tan.vercel.app/market-data/${asset}/3">
                         <span class="strategy-number">3</span> MACD Strategy
                     </a>
                 </div>
                 <div class="strategy-card">
-                    <a href="http://localhost:3000/market-data/${asset}/4">
+                    <a href="https://market-pi-tan.vercel.app/market-data/${asset}/4">
                         <span class="strategy-number">4</span> Bollinger Bands
                     </a>
                 </div>
                 <div class="strategy-card">
-                    <a href="http://localhost:3000/market-data/${asset}/5">
+                    <a href="https://market-pi-tan.vercel.app/market-data/${asset}/5">
                         <span class="strategy-number">5</span> Combined Strategy
                     </a>
                 </div>
             </div>
             
-            <a href="http://localhost:3000/market-data" class="back-link">← Back to all assets</a>
+            <a href="https://market-pi-tan.vercel.app/market-data" class="back-link">← Back to all assets</a>
         </div>
     </body>
     </html>
